@@ -1,22 +1,23 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
 
+import EntrySummaryChart from './EntrySummaryChart'
+import EntrySummaryList from './EntrySummaryList';
 
-import BalancePanel from '../../components/BalancePanel/index';
-import EntrySummaryList from '../../components/EntrySummary/EntrySummaryList';
-const Main = () =>{
+const EntrySummary = () => {
   return (
     <View style={styles.contanier}>
-      <BalancePanel />
+
+      <EntrySummaryChart />
       <EntrySummaryList />
+  
     </View>
   );
 };
 const styles = StyleSheet.create({
   contanier: {
     flex: 1,
-    padding:10,    
-  },
+  }
 });
 
-export default Main;
+export default EntrySummary;

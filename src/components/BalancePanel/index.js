@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Button, StyleSheet} from 'react-native';
 
 
 import BalancePanelLabel from './BalancePanelLabel';
@@ -11,6 +11,7 @@ const BalancePanel = () => {
        
       <BalancePanelLabel />
       <BalancePanelChart />
+      <Button title="Adicionar" />
     </View>
   );
 };
