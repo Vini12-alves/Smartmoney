@@ -1,7 +1,7 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 
-const BalancePanelLabel = () => {
+const BalanceLabel = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.label}>Salto Atual: </Text>
@@ -9,17 +9,18 @@ const BalancePanelLabel = () => {
     </View>
   );
 };
+
 const styles = StyleSheet.create({
-  container:{
+  container: {
     //flex: 1,
     alignItems: 'center',
-  }, 
-  label:{
+  },
+  label: {
     fontSize: 20,
   },
-  value:{ 
-    fontSize:30,
+  value: {
+    fontSize: 30,
   },
 });
 
-export default BalancePanelLabel;
+export default BalanceLabel;
