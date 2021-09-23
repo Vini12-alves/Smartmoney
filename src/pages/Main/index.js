@@ -7,6 +7,7 @@ import EntrySummaryList from '../../components/EntrySummary/EntrySummaryList';
 import EntryList from '../../components/EntryList';
 
 
+
 const Main = () =>{
   return (
     <View style={styles.contanier}>
