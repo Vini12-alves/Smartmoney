@@ -21,8 +21,8 @@ const Report = () => {
       <EntrySummaryList />
       <EntryListItem />
 
-      <Button title="Adicionar" />
-      <Button title="Adicionar" />
+      <Button title="Salvar" />
+      <Button title="Fechar" />
     </View>
   );
 };

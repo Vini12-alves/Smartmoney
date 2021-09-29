@@ -11,7 +11,7 @@ const BalancePanel = () => {
        
       <BalancePanelLabel />
       <BalancePanelChart />
-      <Button title="Adicionar" />
+      
     </View>
   );
 };
