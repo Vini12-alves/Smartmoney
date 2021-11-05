@@ -7,9 +7,10 @@ import EntrySummaryList from '../../components/EntrySummary/EntrySummaryList';
 import EntryListItem from '../../components/EntryList/EntryListItem';
 
 const Report = () => {
+  const currentBalance = 2065.35;
   return (
     <View style={styles.contanier}>
-      <BalanceLabel />
+      <BalanceLabel  currentBalance= {currentBalance}/>
       <View>
         <Picker>
           <Picker.Item label="Todas categorias"  />
